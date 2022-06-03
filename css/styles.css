@@ -12,6 +12,7 @@ body{
     font-family: 'Roboto', sans-serif;
     line-height: 1.15;
     letter-spacing: 0.03em;
+    font-size: 16рх;
 }
 
 ul{
@@ -60,10 +61,10 @@ letter-spacing: 0.02em;
 .article-title{
     font-weight: 700;
     font-size: 14px;
+    text-transform: uppercase;
 }
 .article{
     color: var(--second-text-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
 }
@@ -80,11 +81,12 @@ letter-spacing: 0.02em;
 }
 .name{
     font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
    
 }
 .position {
     color:var(--second-text-color) ;
-    font-weight: 400;
 }
 
 .tagline{
@@ -100,14 +102,20 @@ letter-spacing: 0.02em;
     color: #FFFFFF;
     background-color: #2196F3;
     border: none;
-    cursor: pointer
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
+
 }
 
 .footer{
     background-color: #2F303A;
 }
-.dno{
-    font-weight: 400;
+.bottom{
     font-size: 14px;
     line-height: 1.7;
 }
@@ -134,6 +142,11 @@ letter-spacing: 0.02em;
     font-style: normal
 }
 
+.contscts-link-f:hover,
+.contscts-link-f:focus{
+    color:var(--acsent-color);
+}
+
 .button{
     color: var(--main-text-color);
     background-color: #F5F4FA;
@@ -143,6 +156,7 @@ letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
+    font-family: 'Roboto';
 }
 
 .button:hover,
@@ -159,11 +173,16 @@ letter-spacing: 0.02em;
 }
 .project-type{
     color: #757575;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
 }
-
+.project-name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+}
 
 
