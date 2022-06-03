@@ -82,7 +82,7 @@ letter-spacing: 0.02em;
 .name{
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.1;
    
 }
 .position {
@@ -90,12 +90,14 @@ letter-spacing: 0.02em;
 }
 
 .tagline{
+background-color: #2F303A;
+text-align: center;
+}
+.main-title{
     color: #FFFFFF;
-    background-color: #2F303A;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
 }
 .main-button{
@@ -105,19 +107,21 @@ letter-spacing: 0.02em;
     cursor: pointer;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-
-
+    font-weight:700;
+    line-height:1.8;
+    letter-spacing: 0.06em;
 }
-
+.main-button:hover,
+.main-button:focus{
+    background-color: #188CE8;
+}
 .footer{
     background-color: #2F303A;
 }
 .bottom{
     font-size: 14px;
     line-height: 1.7;
+
 }
 
 .logo-f{
@@ -135,11 +139,18 @@ letter-spacing: 0.02em;
 .address{
     color: #FFFFFF;
     font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 .contscts-link-f{
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    font-style: normal
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
 .contscts-link-f:hover,
@@ -157,16 +168,17 @@ letter-spacing: 0.02em;
     line-height: 1.6;
     text-align: center;
     font-family: 'Roboto';
+    letter-spacing: 0.03em;
 }
 
 .button:hover,
 .button:focus,
 .button:active{
     background-color:var(--acsent-color);
+    color: #FFFFFF;
 }
 
 .project{
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -182,7 +194,5 @@ letter-spacing: 0.02em;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
 }
-
-
